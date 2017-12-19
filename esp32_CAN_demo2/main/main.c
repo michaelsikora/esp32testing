@@ -104,8 +104,8 @@ void app_main(void)
     ESP_ERROR_CHECK( esp_wifi_set_mode(WIFI_MODE_STA) );
     wifi_config_t sta_config = {
         .sta = {
-            .ssid = "House",
-            .password = "bluff1842",
+            .ssid = "WhateverSSID",
+            .password = "Whatever",
             .bssid_set = false
         }
     };
